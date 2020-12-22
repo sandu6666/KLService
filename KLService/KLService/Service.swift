@@ -2,14 +2,13 @@
 //  Service.swift
 //  KLService
 //
-//  Created by sandeep kumar on 21/12/20.
+//  Created by sandeep kumar on 22/12/20.
 //
 
 import Foundation
-public class KLService {
-    private init() {
-    }
-    public static func printInitial()->String{
-       return "This is the inital Setup"
+public class Service {
+    private init(){}
+    public func getMyUUID()->String{
+        return UUID().uuidString
     }
 }

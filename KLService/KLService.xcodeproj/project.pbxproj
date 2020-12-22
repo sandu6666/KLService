@@ -7,110 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		615DCF812590ED7300808779 /* KLService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615DCF772590ED7200808779 /* KLService.framework */; };
-		615DCF862590ED7300808779 /* KLServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615DCF852590ED7300808779 /* KLServiceTests.swift */; };
-		615DCF882590ED7300808779 /* KLService.h in Headers */ = {isa = PBXBuildFile; fileRef = 615DCF7A2590ED7200808779 /* KLService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		615DCF942590EDA600808779 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615DCF932590EDA600808779 /* Service.swift */; };
+		611F72B62591CFE800666686 /* KLService.h in Headers */ = {isa = PBXBuildFile; fileRef = 611F72B42591CFE800666686 /* KLService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		611F72BE2591CFF900666686 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F72BD2591CFF900666686 /* Service.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		615DCF822590ED7300808779 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 615DCF6E2590ED7200808779 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 615DCF762590ED7200808779;
-			remoteInfo = KLService;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		615DCF772590ED7200808779 /* KLService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		615DCF7A2590ED7200808779 /* KLService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLService.h; sourceTree = "<group>"; };
-		615DCF7B2590ED7200808779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		615DCF802590ED7300808779 /* KLServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		615DCF852590ED7300808779 /* KLServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLServiceTests.swift; sourceTree = "<group>"; };
-		615DCF872590ED7300808779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		615DCF932590EDA600808779 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		611F72B12591CFE800666686 /* KLService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KLService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		611F72B42591CFE800666686 /* KLService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLService.h; sourceTree = "<group>"; };
+		611F72B52591CFE800666686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611F72BD2591CFF900666686 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		615DCF742590ED7200808779 /* Frameworks */ = {
+		611F72AE2591CFE800666686 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		615DCF7D2590ED7300808779 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				615DCF812590ED7300808779 /* KLService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		615DCF6D2590ED7200808779 = {
+		611F72A72591CFE800666686 = {
 			isa = PBXGroup;
 			children = (
-				615DCF792590ED7200808779 /* KLService */,
-				615DCF842590ED7300808779 /* KLServiceTests */,
-				615DCF782590ED7200808779 /* Products */,
+				611F72B32591CFE800666686 /* KLService */,
+				611F72B22591CFE800666686 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		615DCF782590ED7200808779 /* Products */ = {
+		611F72B22591CFE800666686 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				615DCF772590ED7200808779 /* KLService.framework */,
-				615DCF802590ED7300808779 /* KLServiceTests.xctest */,
+				611F72B12591CFE800666686 /* KLService.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		615DCF792590ED7200808779 /* KLService */ = {
+		611F72B32591CFE800666686 /* KLService */ = {
 			isa = PBXGroup;
 			children = (
-				615DCF7A2590ED7200808779 /* KLService.h */,
-				615DCF7B2590ED7200808779 /* Info.plist */,
-				615DCF932590EDA600808779 /* Service.swift */,
+				611F72B42591CFE800666686 /* KLService.h */,
+				611F72B52591CFE800666686 /* Info.plist */,
+				611F72BD2591CFF900666686 /* Service.swift */,
 			);
 			path = KLService;
-			sourceTree = "<group>";
-		};
-		615DCF842590ED7300808779 /* KLServiceTests */ = {
-			isa = PBXGroup;
-			children = (
-				615DCF852590ED7300808779 /* KLServiceTests.swift */,
-				615DCF872590ED7300808779 /* Info.plist */,
-			);
-			path = KLServiceTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		615DCF722590ED7200808779 /* Headers */ = {
+		611F72AC2591CFE800666686 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				615DCF882590ED7300808779 /* KLService.h in Headers */,
+				611F72B62591CFE800666686 /* KLService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		615DCF762590ED7200808779 /* KLService */ = {
+		611F72B02591CFE800666686 /* KLService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 615DCF8B2590ED7300808779 /* Build configuration list for PBXNativeTarget "KLService" */;
+			buildConfigurationList = 611F72B92591CFE800666686 /* Build configuration list for PBXNativeTarget "KLService" */;
 			buildPhases = (
-				615DCF722590ED7200808779 /* Headers */,
-				615DCF732590ED7200808779 /* Sources */,
-				615DCF742590ED7200808779 /* Frameworks */,
-				615DCF752590ED7200808779 /* Resources */,
+				611F72AC2591CFE800666686 /* Headers */,
+				611F72AD2591CFE800666686 /* Sources */,
+				611F72AE2591CFE800666686 /* Frameworks */,
+				611F72AF2591CFE800666686 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -118,46 +84,24 @@
 			);
 			name = KLService;
 			productName = KLService;
-			productReference = 615DCF772590ED7200808779 /* KLService.framework */;
+			productReference = 611F72B12591CFE800666686 /* KLService.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		615DCF7F2590ED7300808779 /* KLServiceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 615DCF8E2590ED7300808779 /* Build configuration list for PBXNativeTarget "KLServiceTests" */;
-			buildPhases = (
-				615DCF7C2590ED7300808779 /* Sources */,
-				615DCF7D2590ED7300808779 /* Frameworks */,
-				615DCF7E2590ED7300808779 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				615DCF832590ED7300808779 /* PBXTargetDependency */,
-			);
-			name = KLServiceTests;
-			productName = KLServiceTests;
-			productReference = 615DCF802590ED7300808779 /* KLServiceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		615DCF6E2590ED7200808779 /* Project object */ = {
+		611F72A82591CFE800666686 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					615DCF762590ED7200808779 = {
+					611F72B02591CFE800666686 = {
 						CreatedOnToolsVersion = 12.2;
 						LastSwiftMigration = 1220;
 					};
-					615DCF7F2590ED7300808779 = {
-						CreatedOnToolsVersion = 12.2;
-					};
 				};
 			};
-			buildConfigurationList = 615DCF712590ED7200808779 /* Build configuration list for PBXProject "KLService" */;
+			buildConfigurationList = 611F72AB2591CFE800666686 /* Build configuration list for PBXProject "KLService" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,26 +109,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 615DCF6D2590ED7200808779;
-			productRefGroup = 615DCF782590ED7200808779 /* Products */;
+			mainGroup = 611F72A72591CFE800666686;
+			productRefGroup = 611F72B22591CFE800666686 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				615DCF762590ED7200808779 /* KLService */,
-				615DCF7F2590ED7300808779 /* KLServiceTests */,
+				611F72B02591CFE800666686 /* KLService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		615DCF752590ED7200808779 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		615DCF7E2590ED7300808779 /* Resources */ = {
+		611F72AF2591CFE800666686 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,34 +130,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		615DCF732590ED7200808779 /* Sources */ = {
+		611F72AD2591CFE800666686 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				615DCF942590EDA600808779 /* Service.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		615DCF7C2590ED7300808779 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				615DCF862590ED7300808779 /* KLServiceTests.swift in Sources */,
+				611F72BE2591CFF900666686 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		615DCF832590ED7300808779 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 615DCF762590ED7200808779 /* KLService */;
-			targetProxy = 615DCF822590ED7300808779 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		615DCF892590ED7300808779 /* Debug */ = {
+		611F72B72591CFE800666686 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		615DCF8A2590ED7300808779 /* Release */ = {
+		611F72B82591CFE800666686 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,7 +263,7 @@
 			};
 			name = Release;
 		};
-		615DCF8C2590ED7300808779 /* Debug */ = {
+		611F72BA2591CFE800666686 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -368,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		615DCF8D2590ED7300808779 /* Release */ = {
+		611F72BB2591CFE800666686 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -392,73 +312,28 @@
 			};
 			name = Release;
 		};
-		615DCF8F2590ED7300808779 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KLServiceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pp.KLServiceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		615DCF902590ED7300808779 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KLServiceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pp.KLServiceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		615DCF712590ED7200808779 /* Build configuration list for PBXProject "KLService" */ = {
+		611F72AB2591CFE800666686 /* Build configuration list for PBXProject "KLService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				615DCF892590ED7300808779 /* Debug */,
-				615DCF8A2590ED7300808779 /* Release */,
+				611F72B72591CFE800666686 /* Debug */,
+				611F72B82591CFE800666686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		615DCF8B2590ED7300808779 /* Build configuration list for PBXNativeTarget "KLService" */ = {
+		611F72B92591CFE800666686 /* Build configuration list for PBXNativeTarget "KLService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				615DCF8C2590ED7300808779 /* Debug */,
-				615DCF8D2590ED7300808779 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		615DCF8E2590ED7300808779 /* Build configuration list for PBXNativeTarget "KLServiceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				615DCF8F2590ED7300808779 /* Debug */,
-				615DCF902590ED7300808779 /* Release */,
+				611F72BA2591CFE800666686 /* Debug */,
+				611F72BB2591CFE800666686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 615DCF6E2590ED7200808779 /* Project object */;
+	rootObject = 611F72A82591CFE800666686 /* Project object */;
 }
