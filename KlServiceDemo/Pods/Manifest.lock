@@ -1,0 +1,16 @@
+PODS:
+  - KLService (1.0.1)
+
+DEPENDENCIES:
+  - KLService (from `../KLService/`)
+
+EXTERNAL SOURCES:
+  KLService:
+    :path: "../KLService/"
+
+SPEC CHECKSUMS:
+  KLService: 4d9fb250388a0b3d0b579ba76ecbbaa125cfc557
+
+PODFILE CHECKSUM: 20eb8e4ebb9b2aa14e94b34d39c7ecf5d6ed0b9a
+
+COCOAPODS: 1.10.0
